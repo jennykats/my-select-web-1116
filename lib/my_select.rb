@@ -1,3 +1,9 @@
 def my_select(collection)
- # your code here!
+selectd = []
+ collection.each do |num|
+   if num.even?
+     selectd << num
+   end
+ end
+ return selectd
 end
